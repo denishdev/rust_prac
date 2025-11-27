@@ -1,0 +1,6 @@
+# Generated files from manual rustc compilation
+*.exe
+*.pdb
+
+# Cargo build directory (if you start using cargo)
+target/
