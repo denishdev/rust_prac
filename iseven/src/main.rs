@@ -1,7 +1,7 @@
 fn main() {
     let x = 10;
     println!("Is even {}", is_even(x));
-    fibunachi(x);
+    fibbonacci(x);
 }
 
 fn is_even(n: i32) -> bool {
@@ -11,7 +11,7 @@ fn is_even(n: i32) -> bool {
     return false;
 }
 
-fn fibunachi(n: i32) -> i32 {
+fn fibbonacci(n: i32) -> i32 {
     let mut first = 0;
     let mut second = 1;
 
