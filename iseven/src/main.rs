@@ -2,6 +2,9 @@ fn main() {
     let x = 10;
     println!("Is even {}", is_even(x));
     fibbonacci(x);
+    let str = String::from("hello");
+    let len = get_char(str);
+    println!("{}", len);
 }
 
 fn is_even(n: i32) -> bool {
@@ -32,4 +35,8 @@ fn fibbonacci(n: i32) -> i32 {
     }
    
     return second;
+}
+
+fn get_char(str: String) -> usize {
+    str.chars().count()
 }
